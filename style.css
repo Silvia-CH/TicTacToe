@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    background-color: aliceblue;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.tablero {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 80vh;
+    width: 80vh;
+    gap: 2vh;
+    padding: 11px;
+
+    align-content: space-evenly;
+    justify-content: space-evenly;
+
+    border: 3px solid rgb(50, 50, 50);
+    background-color: grey;
+    border-radius: 0.8vw;
+}
+
+.casilla {
+    height: 24vh;
+    width: 24vh;
+
+    font-size: 22vh;
+    text-align: center;
+
+    border: 3px solid rgb(96, 96, 96);
+    background-color: lightgrey;
+    border-radius: 0.8vw;
+}
+
+.contadores{
+    height: 80vh;
+    background-color:antiquewhite;
+    padding: 2vh;
+    border-radius: 0.8vw;
+}
